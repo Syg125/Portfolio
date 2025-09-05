@@ -43,4 +43,4 @@ I will continue adding more projects as I grow my skills in data analytics and v
 ---
 
 ✨ Thanks for visiting my portfolio!  
-📧 Contact: [your.email@example.com] | 💼 LinkedIn: [Your LinkedIn] | 💻 GitHub: [Your GitHub link]  
+📧 Contact: [suyoghanamshet@gmail.com] | 💼 LinkedIn: [linkedin.com/in/suyog-hanamshet] | 💻 GitHub: [github.com/Syg125/Portfolio]  
