@@ -1,4 +1,4 @@
-# 📂 Data Portfolio – [Your Name]
+# 📂 Data Portfolio – [Suyog Hanamshet]
 
 Welcome to my data portfolio! 🚀  
 This repository showcases my projects in **SQL** and **Power BI**, where I analyse datasets, design databases, and create interactive dashboards.  
