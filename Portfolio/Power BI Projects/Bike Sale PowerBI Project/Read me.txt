@@ -1,0 +1,29 @@
+# 🚴 Power BI Project – Bike Sales Dashboard
+
+## 📌 Overview
+This Power BI project analyzes a **Bike Sales dataset** to uncover insights about customer demographics, sales performance, and purchasing behavior.  
+The goal is to build an interactive dashboard that helps identify patterns and improve business decision-making.
+
+## 📊 Key Features
+- Slicers for **Year, Gender, and Region** to enable dynamic filtering.  
+- Drill through functionality on **CustomerID** to view individual order details.  
+- Visuals for customer demographics (age, income, commute distance).  
+- Sales analysis by product category, geography, and customer segments.  
+
+## 🛠️ Skills Demonstrated
+- Data modeling and relationships in Power BI.  
+- DAX measures for custom calculations.  
+- Interactive dashboards with slicers, drill through, and filters.  
+- Data visualization best practices.  
+
+## 📂 Files
+- `Bike Database.pbix` → Power BI report file.  
+- `README.md` → Project description.  
+
+## 📎 How to Use
+1. Download the `.pbix` file.  
+2. Open in **Power BI Desktop**.  
+3. Explore the dashboard using slicers and drill through features.  
+
+---
+✨ This project showcases my ability to turn raw data into actionable insights using **Power BI**.
