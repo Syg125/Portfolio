@@ -21,7 +21,7 @@ INSERT INTO netflix
 ('2024-01-28', '2024-01-29', 'Movie', 'The Witcher', 'Season 3', 7, 7, 15000000),
 ('2024-02-02', '2024-01-29', 'TV Show', 'Bridgerton', 'Season 2', 8, 5, 12000000),
 ('2024-02-05', '2024-02-05', 'Movie', 'Manifest', 'Season 4', 9, 4, 10000000),
-('2024-02-08', '2024-02-05', 'TV Show', 'Queen''s Gambit', 'Season 1', 10, 3, 9000000),
+('2024-02-08', '2024-02-05', 'TV Show', 'Queen's Gambit', 'Season 1', 10, 3, 9000000),
 ('2024-02-12', '2024-02-12', 'TV Show', 'Narcos', 'Season 2', 1, 16, 42000000),
 ('2024-02-15', '2024-02-12', 'Movie', 'Shadow and Bone', 'Season 2', 2, 9, 31000000),
 ('2024-02-18', '2024-02-19', 'TV Show', 'You', 'Season 4', 3, 11, 27000000),
@@ -75,7 +75,7 @@ GROUP BY category;
 
 --------------------------------------------------------
 
--- 🎯 Q7: Show with the maximum cumulative weeks in top 10  
+-- 🎯 Q7: Show the maximum cumulative weeks in the top 10  
 SELECT show_title, season_title, cumulative_weeks_in_top_10
 FROM netflix
 ORDER BY cumulative_weeks_in_top_10 DESC
