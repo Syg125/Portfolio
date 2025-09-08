@@ -1,69 +1,71 @@
-# 👔 Employee Management Data Analysis Using SQL  
+# 🎓 Student Records Data Analysis Using SQL  
 
 ## 1️⃣ Title  
-**Employee Management Data Analysis Using SQL – Workforce Insights for Business Decision Making**  
+**Student Records Data Analysis – Insights into Academic Performance and Management**  
 
 ---
 
 ## 2️⃣ Executive Summary  
 
 ### 📊 Business Problem  
-Organisations need insights into employee performance, departmental distribution, and workforce trends to improve decision-making related to hiring, payroll, and resource allocation.
+Educational institutions need to analyse student performance data to identify high achievers, manage grades, track city-wise student distribution, and plan academic strategies.  
 
 ### ✅ Solution  
-- Designed and populated an Employee Management table (`MNGT`) with key employee data fields.  
-- Performed advanced SQL queries to analyse employee distribution, salary trends, performance by city, department, and more.  
+- Designed and populated the `student_records` table with essential fields: roll number, full name, marks, grade, and city.  
+- Executed meaningful SQL queries to extract insights such as performance trends, distribution of students by city, and grade-based analysis.  
 
 ### 🚀 Impact  
-- Provided actionable insights into high-performing departments and salary distribution.  
-- Identified patterns in employee joining dates and grade distributions to assist workforce planning.
+- Provided actionable insights to help understand where students perform well or need improvement.  
+- Enabled better decision-making for academic administration and strategic student support.
 
 ---
 
 ## 3️⃣ Business Problem  
-How to analyse employee distribution by department, salary trends, city-wise employee concentration, and grade distribution for business strategy enhancement.
+How to analyse student distribution, average marks by city, identify high achievers, and manage student records efficiently using SQL.
 
 ---
 
 ## 4️⃣ Methodology  
-1. **Database Schema Creation**  
-   Created the `MNGT` table to store employee information such as EMP_ID, NAME, DEPARTMENT, SALARY, GRADE, CITY, and JOIN_DATE.  
+1. **Database Schema Design**  
+   Created a structured `student_records` table to store student information.
 
-2. **Data Insertion**  
-   Sample employee records were inserted for analysis purposes.  
+2. **Data Population**  
+   Sample records have been inserted, representing student details from various cities and grades.
 
-3. **Key SQL Analysis Queries**  
-   - Employees with high salaries in Delhi.  
-   - Average salary by department.  
-   - Employee counts per department and city.  
-   - Employees with salaries between ranges.  
-   - Update and manipulate employee data.
+3. **Key Analytical SQL Queries**  
+   - Show all records  
+   - Average marks  
+   - Students scoring above average  
+   - Students by city  
+   - Update and clean data (e.g., deleting low marks, changing column names).
 
 ---
 
 ## 5️⃣ Skills Demonstrated  
-- SQL Data Definition & Manipulation: CREATE, INSERT, ALTER, UPDATE  
-- SQL Analysis: SELECT, GROUP BY, HAVING, JOIN, Subqueries, Aggregate Functions  
-- Business Insights: Employee distribution, Salary trends, Department-wise performance  
-- Data Cleaning: Column modification, Table renaming, Data updates.
+- SQL Data Definition: CREATE TABLE, ALTER TABLE  
+- Data Manipulation: INSERT, DELETE, UPDATE  
+- Data Analysis: SELECT with GROUP BY, HAVING, Aggregate Functions (AVG, MAX, MIN, COUNT)  
+- Data Cleaning and Schema Modification  
+- Business-Oriented Reporting  
 
 ---
 
 ## 6️⃣ Results & Business Recommendations  
-- Found departments with the highest average salaries.  
-- Identified employee count per city and per department for workforce distribution strategy.  
-- Recommended regular salary reviews and targeted recruitment in underrepresented cities.
+- Identified top-performing students and cities.  
+- Found average marks per city to help target academic interventions.  
+- Cleaned low-quality data and ensured a consistent schema for reporting purposes.  
+- Suggested automating periodic data audits and performance reports.
 
 ---
 
 ## 7️⃣ Next Steps  
-- Add employee performance metrics (KPIs) for advanced analysis.  
-- Build a Power BI dashboard for visualisation of employee distribution & salary trends.  
-- Automate periodic data refresh for real-time analytics.  
+- Build a Power BI dashboard for interactive visualisations of student performance.  
+- Add automated data validation scripts.  
+- Integrate attendance and course performance for a more comprehensive system.
 
 ---
 
 ## 📂 Files in this folder  
-- `SQL Business Analysis – Employee Payroll & Management Reporting` → Contains all structured queries related to employee analysis.  
+- `student_records_queries.sql` → Contains all structured SQL queries with business context.
 
-✨ Open and explore the SQL file to see the full set of queries in action.
+👉 Explore the SQL file to see the full set of queries in action and understand how data analysis drives decisions.
