@@ -1,25 +1,46 @@
-# 📺 Netflix SQL Project
+# 🎬 Netflix Content Analysis – Product Analysis for the Entertainment Industry  
 
-## 🔹 Project Overview
-This project analyzes a Netflix dataset using SQL.  
-It demonstrates filtering, grouping, and reporting queries to generate insights about movies and TV shows released on the platform.
+## 1️⃣ Title  
+**Netflix Content Analysis – Product Analysis for the Entertainment Industry**  
 
----
+## 2️⃣ Executive Summary  
 
-## 🔹 Key Features
-- Filtered movies added in January 2024  
-- Categorized content by type (Movie/TV Show)  
-- Summarized results using `GROUP BY` and `HAVING`  
-- Practiced SQL operations like joins, constraints, and indexing (DDL + DML)
+### 📊 Business Problem  
+Content managers at Netflix need insights into which TV Shows and Movies are performing best, which ones are trending, and how frequently new content is added over time.
 
----
+### ✅ Solution  
+- Used **SQL** to query and analyse Netflix content data.  
+- Developed a **Power BI Dashboard** for interactive visualisation of top content, trends, and engagement metrics.
 
-## 🔹 Sample Query
-```sql
-SELECT 
-    show_title,
-    season_title,
-    date_added AS Released_JAN2024
-FROM netflix
-WHERE date_added BETWEEN '2024-01-01' AND '2024-01-31'
-  AND category = 'Movie';
+### 🚀 Impact  
+- Identified top-performing shows like “Stranger Things” and “Narcos”.  
+- Revealed high content addition periods for strategic decisions.  
+
+
+## 3️⃣ Business Problem  
+How to track Netflix content performance by category, weekly rank, and viewership to help content strategy teams.
+
+
+## 4️⃣ Methodology  
+- Created table schema and inserted sample data.  
+- Wrote multiple analytical SQL queries to answer key business questions.  
+- Built visualisations in Power BI for better decision-making.
+
+## 5️⃣ Skills Demonstrated  
+- SQL: SELECT, WHERE, GROUP BY, HAVING, DISTINCT, UNION  
+- Data Modelling: Table creation, primary keys  
+- Power BI: Slicers, Drillthrough, Interactive dashboard  
+- Business Reporting & Insights  
+
+## 6️⃣ Results & Recommendations  
+- Top 3 most viewed shows identified.  
+- Recommended focusing on TV genres with high engagement during strategic periods.
+
+## 7️⃣ Next Steps  
+- Add customer ratings data for deeper insights.  
+- Implement predictive analytics for future content trends.  
+
+
+## 📂 Files in this folder  
+- `netflix_queries.sql` → Contains all practised SQL queries.  
+- `Netflix_Content_Dashboard.pbix` → Power BI report file.  
