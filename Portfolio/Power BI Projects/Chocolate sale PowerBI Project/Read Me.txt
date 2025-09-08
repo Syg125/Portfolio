@@ -1,0 +1,64 @@
+# 📊 Chocolate Sales Dashboard – Power BI Project  
+
+## 1️⃣ Title  
+**Interactive Chocolate Sales Dashboard – Business Insights & Data Visualization**  
+
+---
+
+## 2️⃣ Executive Summary  
+
+### 📊 Business Problem  
+Chocolate brands need to analyze sales performance across different regions and time periods to optimize marketing strategies and product placement.
+
+### ✅ Solution  
+- Designed an interactive Power BI dashboard visualizing chocolate sales data by region, sales trends over time, and product performance.  
+- Enabled stakeholders to easily filter by product type, region, and time period to make data-driven decisions.
+
+### 🚀 Impact  
+- Provided actionable insights into which regions and products perform best.  
+- Enabled real-time exploration of sales data, helping the business identify opportunities and underperforming areas.
+
+---
+
+## 3️⃣ Business Problem  
+How to provide meaningful visual insights into chocolate product sales across various regions, enabling strategic decisions for marketing and inventory management.
+
+---
+
+## 4️⃣ Methodology  
+1. Imported chocolate sales dataset into Power BI.  
+2. Created interactive visualizations:
+   - Sales by Region  
+   - Monthly Sales Trends  
+   - Top Selling Chocolate Products  
+   - Product Category Performance  
+3. Added slicers for Region, Product Category, and Date to allow dynamic user filtering.
+
+---
+
+## 5️⃣ Skills Demonstrated  
+- Power BI Report Building: Interactive charts, slicers, and KPIs  
+- Data Modeling: Relationships, calculated columns, and measures  
+- Data Visualization: Bar charts, line graphs, tables, and slicers  
+- Business Reporting: Visual storytelling for actionable insights
+
+---
+
+## 6️⃣ Results & Business Recommendations  
+- Identified top-performing regions and best-selling product categories.  
+- Highlighted periods of strong and weak sales trends.  
+- Suggested focusing marketing efforts on high-performing regions and optimizing inventory for best sellers.
+
+---
+
+## 7️⃣ Next Steps  
+- Add more advanced calculated measures (YoY growth, sales forecasts).  
+- Implement role-level security for confidential data handling.  
+- Integrate real-time data updates via APIs.
+
+---
+
+## 📂 Files in this folder  
+- `Chocolate Sales Dashboard.pbix` → Power BI file containing full dashboard and data model.
+
+👉 Open the `.pbix` file in Power BI Desktop to explore interactive insights and visualizations.
