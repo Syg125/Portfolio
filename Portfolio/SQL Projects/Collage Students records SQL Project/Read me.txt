@@ -1,0 +1,69 @@
+# 👔 Employee Management Data Analysis Using SQL  
+
+## 1️⃣ Title  
+**Employee Management Data Analysis Using SQL – Workforce Insights for Business Decision Making**  
+
+---
+
+## 2️⃣ Executive Summary  
+
+### 📊 Business Problem  
+Organisations need insights into employee performance, departmental distribution, and workforce trends to improve decision-making related to hiring, payroll, and resource allocation.
+
+### ✅ Solution  
+- Designed and populated an Employee Management table (`MNGT`) with key employee data fields.  
+- Performed advanced SQL queries to analyse employee distribution, salary trends, performance by city, department, and more.  
+
+### 🚀 Impact  
+- Provided actionable insights into high-performing departments and salary distribution.  
+- Identified patterns in employee joining dates and grade distributions to assist workforce planning.
+
+---
+
+## 3️⃣ Business Problem  
+How to analyse employee distribution by department, salary trends, city-wise employee concentration, and grade distribution for business strategy enhancement.
+
+---
+
+## 4️⃣ Methodology  
+1. **Database Schema Creation**  
+   Created the `MNGT` table to store employee information such as EMP_ID, NAME, DEPARTMENT, SALARY, GRADE, CITY, and JOIN_DATE.  
+
+2. **Data Insertion**  
+   Sample employee records were inserted for analysis purposes.  
+
+3. **Key SQL Analysis Queries**  
+   - Employees with high salaries in Delhi.  
+   - Average salary by department.  
+   - Employee counts per department and city.  
+   - Employees with salaries between ranges.  
+   - Update and manipulate employee data.
+
+---
+
+## 5️⃣ Skills Demonstrated  
+- SQL Data Definition & Manipulation: CREATE, INSERT, ALTER, UPDATE  
+- SQL Analysis: SELECT, GROUP BY, HAVING, JOIN, Subqueries, Aggregate Functions  
+- Business Insights: Employee distribution, Salary trends, Department-wise performance  
+- Data Cleaning: Column modification, Table renaming, Data updates.
+
+---
+
+## 6️⃣ Results & Business Recommendations  
+- Found departments with the highest average salaries.  
+- Identified employee count per city and per department for workforce distribution strategy.  
+- Recommended regular salary reviews and targeted recruitment in underrepresented cities.
+
+---
+
+## 7️⃣ Next Steps  
+- Add employee performance metrics (KPIs) for advanced analysis.  
+- Build a Power BI dashboard for visualisation of employee distribution & salary trends.  
+- Automate periodic data refresh for real-time analytics.  
+
+---
+
+## 📂 Files in this folder  
+- `SQL Business Analysis – Employee Payroll & Management Reporting` → Contains all structured queries related to employee analysis.  
+
+✨ Open and explore the SQL file to see the full set of queries in action.
