@@ -27,7 +27,7 @@ SELECT * FROM MNGT;
 
 --------------------------------------------------------
 
--- 🎯 Q2 – List all employees from Delhi with salary > 50000  
+-- 🎯 Q2 – List all employees from Delhi with a salary > 50000  
 SELECT * FROM MNGT  
 WHERE CITY = 'DELHI' AND SALARY > 50000;
 
