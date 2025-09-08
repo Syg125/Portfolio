@@ -59,6 +59,7 @@ How to provide meaningful visual insights into chocolate product sales across va
 ---
 
 ## 📂 Files in this folder  
-- `Chocolate Sales Dashboard.pbix` → Power BI file containing full dashboard and data model.
+- `Chocolate company sample sql.pbix` → Power BI file containing full dashboard and data model.
 
 👉 Open the `.pbix` file in Power BI Desktop to explore interactive insights and visualizations.
+
