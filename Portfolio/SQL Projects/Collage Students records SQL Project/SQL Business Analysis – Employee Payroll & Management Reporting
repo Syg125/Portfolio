@@ -1,0 +1,116 @@
+CREATE TABLE MNGT (
+  EMP_ID      INT PRIMARY KEY,
+  NAME        VARCHAR(50),
+  DEPARTMENT  VARCHAR(50),
+  SALARY      INT,
+  GRADE       CHAR(1),
+  CITY        VARCHAR(50),
+  JOIN_DATE   DATE
+);
+
+INSERT INTO MNGT VALUES
+(101, 'ANIL',     'Finance',     42000, 'C', 'PUNE',    '2020-04-15'),
+(102, 'BHUMIKA',  'Marketing',   93000, 'A', 'MUMBAI',  '2018-01-03'),
+(103, 'CHETAN',   'Sales',       85000, 'B', 'MUMBAI',  '2021-06-21'),
+(104, 'DHRUV',    'Finance',     96000, 'A', 'DELHI',   '2019-09-10'),
+(105, 'EMANUAL',  'Support',     12000, 'F', 'DELHI',   '2022-11-05'),
+(106, 'FARAH',    'Sales',       82000, 'B', 'DELHI',   '2020-03-18'),
+(107, 'VARUN',    'HR',          67000, 'B', 'PUNE',    '2023-01-25'),
+(108, 'RIYA',     'Marketing',   72000, 'C', 'MUMBAI',  '2017-07-30'),
+(109, 'RAHUL',    'Support',     58000, 'C', 'DELHI',   '2016-12-01'),
+(110, 'PRIYA',    'Finance',     49000, 'D', 'PUNE',    '2021-02-14');
+
+-------------------------------------------------------
+
+-- 🎯 Q1 – Get all records from the management table  
+SELECT * FROM MNGT;
+
+--------------------------------------------------------
+
+-- 🎯 Q2 – List all employees from Delhi with salary > 50000  
+SELECT * FROM MNGT  
+WHERE CITY = 'DELHI' AND SALARY > 50000;
+
+--------------------------------------------------------
+
+-- 🎯 Q3 – Average salary per department where average > 60000  
+SELECT DEPARTMENT, AVG(SALARY)  
+FROM MNGT  
+GROUP BY DEPARTMENT  
+HAVING AVG(SALARY) > 60000;
+
+--------------------------------------------------------
+
+-- 🎯 Q4 – Employees with salary between 40000 and 60000  
+SELECT * FROM MNGT  
+WHERE SALARY BETWEEN 40000 AND 60000;
+
+--------------------------------------------------------
+
+-- 🎯 Q5 – Update salary by adding 500 for all employees  
+UPDATE MNGT  
+SET SALARY = SALARY + 500;
+
+--------------------------------------------------------
+
+-- 🎯 Q6 – Find employee with maximum salary in each city  
+SELECT CITY, MAX(SALARY)  
+FROM MNGT  
+GROUP BY CITY;
+
+--------------------------------------------------------
+
+-- 🎯 Q7 – Count of employees in each department  
+SELECT DEPARTMENT, COUNT(*) AS Employee_Count  
+FROM MNGT  
+GROUP BY DEPARTMENT;
+
+--------------------------------------------------------
+
+-- 🎯 Q8 – Employees joined before 2020-01-01  
+SELECT * FROM MNGT  
+WHERE JOIN_DATE < '2020-01-01';
+
+--------------------------------------------------------
+
+-- 🎯 Q9 – Rename column GRADE to EMP_GRADE  
+ALTER TABLE MNGT CHANGE COLUMN GRADE EMP_GRADE CHAR(1);
+
+--------------------------------------------------------
+
+-- 🎯 Q10 – Add a new column JOINING_BONUS to the table  
+ALTER TABLE MNGT ADD COLUMN JOINING_BONUS DECIMAL(10,2) DEFAULT 5000.00;
+
+--------------------------------------------------------
+
+-- 🎯 Q11 – Delete the column JOINING_BONUS  
+ALTER TABLE MNGT DROP COLUMN JOINING_BONUS;
+
+--------------------------------------------------------
+
+-- 🎯 Q12 – Total weekly hours viewed by category (from Netflix table)  
+SELECT category, SUM(weekly_hours_viewed) AS total_viewed_hours  
+FROM netflix  
+GROUP BY category;
+
+--------------------------------------------------------
+
+-- 🎯 Q13 – Top 5 shows by weekly_hours_viewed  
+SELECT show_title, weekly_hours_viewed  
+FROM netflix  
+ORDER BY weekly_hours_viewed DESC  
+LIMIT 5;
+
+--------------------------------------------------------
+
+-- 🎯 Q14 – List shows with cumulative_weeks_in_top_10 > 10  
+SELECT show_title, cumulative_weeks_in_top_10  
+FROM netflix  
+WHERE cumulative_weeks_in_top_10 > 10;
+
+--------------------------------------------------------
+
+-- 🎯 Q15 – Earliest and Latest content added in Netflix  
+(SELECT date_added, show_title FROM netflix ORDER BY date_added ASC LIMIT 1)  
+UNION  
+(SELECT date_added, show_title FROM netflix ORDER BY date_added DESC LIMIT 1);
