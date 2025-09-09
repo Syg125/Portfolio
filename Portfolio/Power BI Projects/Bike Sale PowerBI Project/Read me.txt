@@ -1,29 +1,67 @@
-# 🚴 Power BI Project – Bike Sales Dashboard
+# 🚴 Bike Sales Dashboard – Power BI Project  
 
-## 📌 Overview
-This Power BI project analyzes a **Bike Sales dataset** to uncover insights about customer demographics, sales performance, and purchasing behavior.  
-The goal is to build an interactive dashboard that helps identify patterns and improve business decision-making.
-
-## 📊 Key Features
-- Slicers for **Year, Gender, and Region** to enable dynamic filtering.  
-- Drill through functionality on **CustomerID** to view individual order details.  
-- Visuals for customer demographics (age, income, commute distance).  
-- Sales analysis by product category, geography, and customer segments.  
-
-## 🛠️ Skills Demonstrated
-- Data modeling and relationships in Power BI.  
-- DAX measures for custom calculations.  
-- Interactive dashboards with slicers, drill through, and filters.  
-- Data visualization best practices.  
-
-## 📂 Files
-- `Bike Database.pbix` → Power BI report file.  
-- `README.md` → Project description.  
-
-## 📎 How to Use
-1. Download the `.pbix` file.  
-2. Open in **Power BI Desktop**.  
-3. Explore the dashboard using slicers and drill through features.  
+## 1️⃣ Title  
+**Interactive Bike Sales Dashboard – Business Insights & Data Visualisation**
 
 ---
-✨ This project showcases my ability to turn raw data into actionable insights using **Power BI**.
+
+## 2️⃣ Executive Summary  
+
+### 📊 Business Problem  
+A bike retail business needs to analyse sales performance by region, product category, and time to optimise inventory management, marketing strategies, and sales growth.
+
+### ✅ Solution  
+- Created a Power BI dashboard that visualises bike sales performance across regions, time periods, and product categories.  
+- Included interactive elements such as slicers for date range, region, and product category to enable flexible data exploration.
+
+### 🚀 Impact  
+- Enabled stakeholders to easily identify top-selling products and regions.  
+- Provided actionable insights to support marketing focus and inventory restocking strategies.
+
+---
+
+## 3️⃣ Business Problem  
+How to analyse and visualise bike sales data effectively to understand trends by region, category, and time, and assist in data-driven decision-making.
+
+---
+
+## 4️⃣ Methodology  
+1. Imported the Bike Sales dataset into Power BI.  
+2. Built interactive visualisations, including:
+   - Sales trends over time (line chart)  
+   - Sales by Region (map and bar chart)  
+   - Category-wise sales breakdown  
+   - Top performing products  
+3. Implemented slicers for dynamic filtering by:
+   - Region  
+   - Product Category  
+   - Time Period  
+
+---
+
+## 5️⃣ Skills Demonstrated  
+- Data Modelling: Relationships, calculated columns, and measures  
+- Data Visualisation: Interactive charts, tables, and slicers  
+- Power BI Report Development  
+- Business Analytics and Data Storytelling
+
+---
+
+## 6️⃣ Results & Business Recommendations  
+- Discovered key regions driving the highest sales.  
+- Identified top-selling product categories for targeted marketing.  
+- Suggested a real-time dashboard for regular monitoring and faster decision-making.
+
+---
+
+## 7️⃣ Next Steps  
+- Integrate live data connections for automatic updates.  
+- Add advanced calculated measures (YoY Growth, Forecasts).  
+- Implement role-level security for sensitive data.
+
+---
+
+## 📂 Files in this folder  
+- `Bike Sales Database.pbix` → Power BI file with full interactive dashboard.
+
+👉 Open the `.pbix` file in Power BI Desktop to explore interactive visualisations and insights.
